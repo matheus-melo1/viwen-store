@@ -1,0 +1,63 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "Camiseta Polo Alta",
+      "category": "CAMISETA",
+      "price": "39,90",
+      "portion": "6",
+      "portionPrice": "29,90",
+      "img": "https://png.pngtree.com/png-vector/20231014/ourmid/pngtree-black-polo-shirt-mockup-cutout-png-file-png-image_10159100.png"
+    },
+
+    {
+      "id": 2,
+      "name": "Moletom Off White",
+      "category": "Moletom",
+      "price": "299,90",
+      "portion": "10",
+      "portionPrice": "29,90",
+      "img": "https://acdn.mitiendanube.com/stores/002/286/613/products/barc-site-moletom-off1-0ece18f1d5eea4c6f616889641992992-640-0.png"
+    },
+
+    {
+      "id": 3,
+      "name": "Camiseta Polo Alta",
+      "category": "CAMISETA",
+      "price": "39,90",
+      "portion": "6",
+      "portionPrice": "29,90",
+      "img": "https://png.pngtree.com/png-vector/20231014/ourmid/pngtree-black-polo-shirt-mockup-cutout-png-file-png-image_10159100.png"
+    },
+
+    {
+      "id": 4,
+      "name": "Moletom Off White",
+      "category": "Moletom",
+      "price": "299,90",
+      "portion": "10",
+      "portionPrice": "29,90",
+      "img": "https://acdn.mitiendanube.com/stores/002/286/613/products/barc-site-moletom-off1-0ece18f1d5eea4c6f616889641992992-640-0.png"
+    },
+
+    {
+      "id": 5,
+      "name": "Moletom Off White",
+      "category": "Moletom",
+      "price": "299,90",
+      "portion": "10",
+      "portionPrice": "29,90",
+      "img": "https://acdn.mitiendanube.com/stores/002/286/613/products/barc-site-moletom-off1-0ece18f1d5eea4c6f616889641992992-640-0.png"
+    },
+
+    {
+      "id": 6,
+      "name": "Moletom Off White",
+      "category": "Moletom",
+      "price": "299,90",
+      "portion": "10",
+      "portionPrice": "29,90",
+      "img": "https://acdn.mitiendanube.com/stores/002/286/613/products/barc-site-moletom-off1-0ece18f1d5eea4c6f616889641992992-640-0.png"
+    }
+  ]
+}

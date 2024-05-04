@@ -28,6 +28,10 @@
   font-family: Inter;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   display: flex;
   background-color: var(--main-bg-secondary);
@@ -112,7 +116,7 @@ nav {
 
 .user-right {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   font-weight: bold;
 }
 
@@ -130,9 +134,9 @@ nav {
 .user-info {
   display: flex;
   flex-direction: column;
+  align-items: start;
   gap: 5px;
 }
-
 .user-info p:nth-child(2) {
   padding: 2px 8px;
   font-size: 14px;
@@ -383,11 +387,11 @@ nav {
 
 .cloth-products {
   display: grid;
-  grid-template-columns: 220px 220px 220px 220px;
-  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 15px;
 }
 
-.card-product {
+.card-product  {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -396,11 +400,11 @@ nav {
   width: 100%;
   gap: 15px;
   padding: 10px;
+  overflow: hidden;
 }
 
 .card-img {
   width: 260px;
-  height: 260px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -500,4 +504,24 @@ nav {
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+@media (max-width: 1670px) {
+  .cloth-products {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .card-img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1500px) {
+  .cloth-products {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .nav-list {
+    gap: 0;
+  }
 }

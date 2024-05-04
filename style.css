@@ -12,6 +12,15 @@
   --text-color: #5C5C5C;
 }
 
+@keyframes banner {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -252,6 +261,8 @@ nav {
   width: 100%;
   height: 100%;
   border-radius: 25px;
+  transition: all .2s;
+  animation: banner .7s;
 }
 
 .point-banner {
@@ -269,6 +280,11 @@ nav {
   background-color: #009393a1;
   border-radius: 50%;
   cursor: pointer;
+  transition: all .3s;
+}
+
+.point.on {
+  background-color: white;
 }
 
 .cloth-product {

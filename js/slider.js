@@ -1,0 +1,43 @@
+const slider = document.querySelector('.slider');
+const points = document.querySelectorAll('.point-banner .point');
+const point1 = document.querySelectorAll('.point-banner .point')[0];
+const point2 = document.querySelectorAll('.point-banner .point')[1];
+const point3 = document.querySelectorAll('.point-banner .point')[2];
+
+const imgs = ['./assets/img/9310804.jpg.png', './assets/img/banner.png'];
+
+point1.classList.add('on');
+let slidesNum = 0;
+
+point1.onclick = () => {
+  point1.classList.remove('on');
+  point2.classList.remove('on');
+
+  point1.classList.add('on');
+  slidesNum = 0;
+  slider.src = imgs[slidesNum];
+}
+
+point2.onclick = () => {
+  point1.classList.remove('on');
+  point2.classList.remove('on');
+
+  point2.classList.add('on');
+  slidesNum = 1;
+  slider.src = imgs[slidesNum];
+}
+
+setInterval(() => {
+  slidesNum += 1;
+  
+  if(slidesNum >= imgs.length) slidesNum = 0;
+  slider.src = imgs[slidesNum];
+  if(slidesNum == 0) {
+    points[0].classList.add('on');
+    points[1].classList.remove('on');
+  }
+  else {
+    points[1].classList.add('on');
+    points[0].classList.remove('on');
+  }
+}, 3000);

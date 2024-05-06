@@ -36,3 +36,5 @@ data.product.forEach(product => {
     </div>
   `;
 });
+
+console.log(data.product[0].category)

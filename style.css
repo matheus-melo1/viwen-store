@@ -242,17 +242,7 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 15px;
-}
-
-.cloth-box {
-  display: flex;
-  flex-direction: column;
-  border-radius: 15px;
-  gap: 20px;
-}
-
-.cloth-sell {
-  border-radius: 15px;
+  position: relative;
 }
 
 .main-banner {
@@ -291,103 +281,54 @@ nav {
   background-color: white;
 }
 
-.cloth-product {
+.cloth-box {
+  width: 100%;
   display: flex;
   align-items: center;
-  border-radius: 15px;
-  width: 100%;
-  gap: 10px;
-  background-color: var(--main-bg);
-  padding: 10px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 20px 0px;
-}
-
-.cloth-product-img {
-  min-width: 280px;
-  min-height: 280px;
-}
-
-.cloth-product-img img {
-  width: 100%;
-  height: 100%;
-}
-
-.cloth-product-info {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.cloth-product-description {
-  color: var(--text-color);
+  overflow-x: auto;
   overflow-y: hidden;
-  height: 60px;
+  transition: all .5s;
+  flex-flow: row nowrap;
 }
 
-.cloth-product-price {
-  color: var(--color-btn);
-  font-weight: 600;
-  font-size: 20px;
+.cloth-box::-webkit-scrollbar {
+  display: none;
 }
 
-.cloth-product-counter {
-  display: flex;
-  width: 108px;
-  align-items: center;
-  gap: 15px;
-  padding: 5px;
-  background-color: var(--main-bg-secondary);
-  border-radius: 25px;
-}
-
-.cloth-product-counter button {
-  display: flex;
-  align-items: center;
-  border: 0;
-  font-size: 18px;
-  padding: 5px 10px;
+.arrow-right, .arrow-left {
+  position: absolute;
+  padding: 10px 13px;
+  background-color: var(--bg);
   border-radius: 50%;
-  background-color: var(--main-bg);
+  color: white;
+  transition: all .3s;
   cursor: pointer;
-}
-
-.cloth-product-buttons {
   display: flex;
   align-items: center;
-  gap: 10px;
-}
-
-.cloth-product-buttons button {
-  border: 2px solid var(--color-btn);
-  padding: 10px 20px;
-  border-radius: 10px;
-  color: var(--color-btn);
-  font-size: 16px;
-  cursor: pointer;
-  transition: all .3s;
-  font-family: Poppins;
+  justify-content: center;
+  top: 50%;
+  transform: translateY(-50%);
 
   &:hover {
-    background-color: #00939365;
-    color: var(--text-color);
+    filter: brightness(150%);
   }
 }
 
-.cloth-product-buttons button:nth-child(3) {
-  background-color: var(--color-btn);
-  transition: all .3s;
-  color: white;
+.arrow-right {
+  right: -20px;
+}
 
-  &:hover {
-    filter: brightness(110%);
-  }
+.arrow-left {
+  left: -20px;
 }
 
 /* card product */
 
 .cloth-products {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  width: 95%;
+  display: flex;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; */
   gap: 15px;
 }
 
@@ -397,7 +338,7 @@ nav {
   align-items: center;
   background-color: var(--main-bg);
   border-radius: 15px;
-  width: 100%;
+  min-width: 220px;
   gap: 15px;
   padding: 10px;
   overflow: hidden;

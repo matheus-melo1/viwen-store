@@ -58,6 +58,36 @@
       "portion": "10",
       "portionPrice": "29,90",
       "img": "https://acdn.mitiendanube.com/stores/002/286/613/products/barc-site-moletom-off1-0ece18f1d5eea4c6f616889641992992-640-0.png"
+    },
+
+    {
+      "id": 7,
+      "name": "Moletom Off White",
+      "category": "Moletom",
+      "price": "299,90",
+      "portion": "10",
+      "portionPrice": "29,90",
+      "img": "https://acdn.mitiendanube.com/stores/002/286/613/products/barc-site-moletom-off1-0ece18f1d5eea4c6f616889641992992-640-0.png"
+    },
+
+    {
+      "id": 8,
+      "name": "Moletom Off White",
+      "category": "Moletom",
+      "price": "299,90",
+      "portion": "10",
+      "portionPrice": "29,90",
+      "img": "https://acdn.mitiendanube.com/stores/002/286/613/products/barc-site-moletom-off1-0ece18f1d5eea4c6f616889641992992-640-0.png"
+    },
+
+    {
+      "id": 9,
+      "name": "Moletom Off White",
+      "category": "Moletom",
+      "price": "299,90",
+      "portion": "10",
+      "portionPrice": "29,90",
+      "img": "https://acdn.mitiendanube.com/stores/002/286/613/products/barc-site-moletom-off1-0ece18f1d5eea4c6f616889641992992-640-0.png"
     }
   ]
 }

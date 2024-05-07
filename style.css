@@ -338,14 +338,14 @@ nav {
   align-items: center;
   background-color: var(--main-bg);
   border-radius: 15px;
-  min-width: 220px;
+  min-width: 240px;
   gap: 15px;
   padding: 10px;
   overflow: hidden;
 }
 
 .card-img {
-  min-width: 260px;
+  min-width: 280px;
   display: flex;
   justify-content: center;
   align-items: center;

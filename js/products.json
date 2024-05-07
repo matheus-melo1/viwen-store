@@ -22,42 +22,42 @@
 
     {
       "id": 3,
-      "name": "Camiseta Polo Alta",
+      "name": "Camiseta Piet x Oakley",
       "category": "CAMISETA",
-      "price": "39,90",
-      "portion": "6",
-      "portionPrice": "29,90",
-      "img": "https://png.pngtree.com/png-vector/20231014/ourmid/pngtree-black-polo-shirt-mockup-cutout-png-file-png-image_10159100.png"
+      "price": "399,90",
+      "portion": "10",
+      "portionPrice": "39,90",
+      "img": "https://droper-media.us-southeast-1.linodeobjects.com/2122022173051880.webp"
     },
 
     {
       "id": 4,
-      "name": "Moletom Off White",
+      "name": "Moletom Oakley",
       "category": "Moletom",
       "price": "299,90",
       "portion": "10",
       "portionPrice": "29,90",
-      "img": "https://acdn.mitiendanube.com/stores/002/286/613/products/barc-site-moletom-off1-0ece18f1d5eea4c6f616889641992992-640-0.png"
+      "img": "https://cdn.dooca.store/296/products/foa406540-75h-al-photoroom.png?v=1702313877&webp=0"
     },
 
     {
       "id": 5,
-      "name": "Moletom Off White",
-      "category": "Moletom",
+      "name": "Camiseta Fire Oakley",
+      "category": "CAMISETA",
       "price": "299,90",
       "portion": "10",
       "portionPrice": "29,90",
-      "img": "https://acdn.mitiendanube.com/stores/002/286/613/products/barc-site-moletom-off1-0ece18f1d5eea4c6f616889641992992-640-0.png"
+      "img": "https://droper-media.us-southeast-1.linodeobjects.com/11122023165657944.webp"
     },
 
     {
       "id": 6,
-      "name": "Moletom Off White",
-      "category": "Moletom",
+      "name": "Sufgang Cristall Ball",
+      "category": "CAMISETA",
       "price": "299,90",
       "portion": "10",
       "portionPrice": "29,90",
-      "img": "https://acdn.mitiendanube.com/stores/002/286/613/products/barc-site-moletom-off1-0ece18f1d5eea4c6f616889641992992-640-0.png"
+      "img": "https://dripthefato.com.br/cdn/shop/products/x_0030_csioandreasi-6-3oz2owvqlt_800x.webp?v=1705781715"
     },
 
     {

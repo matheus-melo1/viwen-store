@@ -338,7 +338,7 @@ nav {
   align-items: center;
   background-color: var(--main-bg);
   border-radius: 15px;
-  min-width: 240px;
+  min-width: 230px;
   gap: 15px;
   padding: 10px;
   overflow: hidden;

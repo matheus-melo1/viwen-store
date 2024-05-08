@@ -1,15 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="icon" type="image/x-icon" href="./assets/img/Logo_loja.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <nav></nav>
-  <p class="text">nothing</p>
-  <img class="img" src="" alt="">
+
+  <section class="container-sell">
+    <div class="sell-img">
+      <img src="" alt="">
+    </div>
+    <div class="sell-info">
+      <div class="sell-box">
+        <p class="card-category"></p>
+        <h1 class="sell-title"></h1>
+      </div>
+      <div class="sell-content">
+        <h2 class="sell-price"></h2>
+        <p class="sell-portion"></p>
+      </div>
+      <div class="sell-size">
+        <sub><i class="fa-solid fa-ruler"></i> Tamanho</sub>
+        <div class="sell-size-btn">
+            <button>P</button>
+            <button>M</button>
+            <button>G</button>
+            <button>GG</button>
+            <button>XL</button>
+        </div>
+      </div>
+      <div class="sell-counter">
+        <sub><ion-icon name="cube"></ion-icon> Quantidade</sub>
+        <div>
+          <button>-</button>
+          <span>1</span>
+          <button>+</button>
+        </div>
+      </div>
+      <div class="sell-pay">
+        <button><i class="fa-solid fa-cart-plus"></i> Adicionar ao Carrinho</button>
+      </div>
+      <div class="sell-cep">
+        <p>Calcular o frete e prazo:</p>
+        <div class="sell-cep-content">
+          <input type="text" placeholder="CEP" name="" id="">
+          <button>CALCULAR</button>
+        </div>
+    </div>
+    </div>
+  </section>
 
   
   <script type="module" src="./js/routes.js"></script>

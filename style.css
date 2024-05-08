@@ -266,19 +266,22 @@ nav {
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
+  padding: 10px;
+  border-radius: 25px;
+  background-color: #1b1b1b80;
 }
 
 .point-banner .point {
   width: 12px;
   height: 12px;
-  background-color: #009393a1;
+  background-color: #292929a1;
   border-radius: 50%;
   cursor: pointer;
   transition: all .3s;
 }
 
 .point.on {
-  background-color: white;
+  background-color: #ffffff;
 }
 
 .cloth-box {

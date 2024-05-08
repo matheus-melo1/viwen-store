@@ -16,6 +16,7 @@ let slidesNum = 0;
 point1.onclick = () => {
   point1.classList.remove('on');
   point2.classList.remove('on');
+  point3.classList.remove('on');
 
   point1.classList.add('on');
   slidesNum = 0;
@@ -25,6 +26,7 @@ point1.onclick = () => {
 point2.onclick = () => {
   point1.classList.remove('on');
   point2.classList.remove('on');
+  point3.classList.remove('on');
 
   point2.classList.add('on');
   slidesNum = 1;
@@ -34,6 +36,7 @@ point2.onclick = () => {
 point3.onclick = () => {
   point1.classList.remove('on');
   point2.classList.remove('on');
+  point3.classList.remove('on');
 
   point3.classList.add('on');
   slidesNum = 2;

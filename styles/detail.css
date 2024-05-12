@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  background-color: var(--main-bg-secondary);
+}
+
+a {
+  text-decoration: none;
+}
+
+.container-sell {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--main-bg);
+  border-radius: 15px;
+  margin: 15px;
+  overflow-y: auto;
+}
+
+.sell-product {
+  display: flex;
+  width: 100%;
+  height: 680px;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 0 50px;
+}
+
+.sell-img-box {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #eeeeee46;
+  /* border: 1px solid #ddd; */
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.sell-slider {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #DDDDDD;
+  color: #09090B;
+}
+
+.arrow-up, .arrow-down {
+  padding: 10px;
+  border-radius: 5px;
+  transition: all .3s;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  text-align: center;
+
+  &:hover {
+    background-color: #dddddde7;
+  }
+}
+
+.sell-img {
+  width: 600px;
+}
+
+.sell-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.slider-imgs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.box {
+  width: 42px;
+  height: 42px;
+  border-radius: 5px;
+  background-color: var(--bg);
+  cursor: pointer;
+}
+
+.sell-info {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+  border: 1px solid #ddd;
+  background-color: var(--main-bg);
+  border-radius: 10px;
+}
+
+.sell-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+}
+
+.sell-box h1 {
+  font-size: 42px;
+}
+
+.sell-box p {
+  font-size: 14px;
+}
+
+.sell-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.sell-category {
+  background-color: var(--bg);
+  color: white;
+  padding: 2px 8px;
+  text-transform: uppercase;
+  font-size: 13px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.sell-portion {
+  color: var(--text-color);
+}
+
+.sell-price {
+  color: var(--color-btn);
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.sell-size {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: start;
+}
+
+.sell-size sub {
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.sell-size-btn {
+  display: flex;
+  gap: 5px;
+}
+
+.sell-size .sell-size-btn button {
+  display: flex;
+  border: 1px solid var(--text-color);
+  border-radius: 25px;
+  padding: 10px 15px;
+  font-size: 18px;
+  color: var(--text-color);
+  font-weight: 600;
+  transition: all .2s;
+  cursor: pointer;
+}
+
+.sell-size .sell-size-btn button:hover {
+  background-color: var(--bg);
+  border: 1px solid var(--bg);
+  color: white;
+}
+
+.sell-size .sell-size-btn button:active {
+  border: 2px solid #4e4d4d;
+  background-color: #4e4d4d;
+}
+
+.sell-size div button:focus {
+  color: white;
+  border: 1px solid var(--color-btn);
+  background-color: var(--color-btn);
+}
+
+.sell-pay {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  border-radius: 25px;
+}
+
+.sell-pay button {
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: var(--bg);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all .3s;
+
+  &:hover {
+    color: var(--main-bg);
+    background-color: var(--text-color);
+  }
+}
+
+.sell-cep {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  justify-content: center;
+}
+
+.sell-cep-content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.sell-cep-content input {
+  width: 70%;
+  padding: 10px;
+  border: 1.5px solid #ddd;
+  border-radius: 5px;
+  background-color: var(--main-bg);
+  color: black;
+  transition: all .3s;
+  font-size: 16px;
+}
+
+.sell-cep-content input:focus, .sell-cep-content input:hover {
+  outline: none;
+  border-color: var(--color-btn);
+  background-color: #fff;
+  box-shadow: 0 0 0 5px #0093933b;
+}
+
+.sell-cep-content button {
+  width: 30%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  color: var(--color-btn);
+  border: 1px solid var(--color-btn);
+  background-color: transparent;
+  font-weight: bold;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.sell-cep-content button:hover {
+  border: 0;
+  background-color: var(--bg);
+  color: white;
+}
+
+.sell-cep-content button:active {
+  filter: brightness(80%);
+}
+
+.sell-counter {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 118px;
+}
+
+.sell-counter sub {
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.sell-counter div {
+  width: 100%;
+  display: flex;
+  color: black;
+  align-items: center;
+  gap: 15px;
+  padding: 5px;
+  border-radius: 25px;
+  background-color: var(--main-bg-secondary);
+}
+
+.sell-counter div span {
+  font-weight: bold;
+}
+
+.sell-counter div button {
+  border: 0;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+  border-radius: 50%;
+  background-color: var(--main-bg);
+  cursor: pointer;
+}
